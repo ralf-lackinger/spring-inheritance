@@ -6,9 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Child extends Parent {
 
-	@Override
 	@Bean(name = {"childName1", "childName2"})
-	public Child additionalBeanNames() {
+	public Child additionalChildNames() {
 		return new Child();
 	}
 

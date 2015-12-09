@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Parent {
 
 	@Bean(name = {"parentName1", "parentName2"})
-	public Parent additionalBeanNames() {
+	public Parent additionalParentNames() {
 		return new Parent();
 	}
 
